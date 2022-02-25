@@ -22,4 +22,6 @@ wp-content/themes/*
 
 wp-content/plugins/*
 !wp-content/plugins/
-#!/wp-content/plugins/arena_plugin
+#!/wp-content/plugins/arena-plugin
+!/wp-content/plugins/arena-plugin
+!/wp-content/plugins/fakerpress
