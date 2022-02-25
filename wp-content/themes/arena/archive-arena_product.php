@@ -1,7 +1,7 @@
 <?php get_header() ?>
 <?php
-// http://localhost/arena-candidate-wordpress/arena_product/
-$loop = query_products();
+// adress : http://localhost/arena-candidate-wordpress/arena_product/
+$loop = query_products(); // Query is defined in theme-queries.php
 if ($loop->have_posts()) :
     while ($loop->have_posts()) : $loop->the_post();
 

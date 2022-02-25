@@ -1,5 +1,6 @@
 <?php
 // array of CPT possible fields. Array is called by the arena_registerCPT() function in arena_plugin.php.
+// DOC https://developer.wordpress.org/reference/functions/register_post_type/
 
 return [
 

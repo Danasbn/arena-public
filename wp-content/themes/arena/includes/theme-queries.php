@@ -1,5 +1,5 @@
 <?php
-
+// Php file where I'll wrote every custom query, and call it where needed. Allow easier modifications, as it will be effective everywhere the associated function is called. 
 
 if(!function_exists('query_products')) {
     function query_products()
