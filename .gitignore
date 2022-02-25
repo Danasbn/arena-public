@@ -17,7 +17,7 @@ wp-content/themes/*
 !wp-content/themes
 #!/wp-content/themes/custom_theme
 !/wp-content/themes/twentytwentyone
-#!/wp-content/themes/arena
+!/wp-content/themes/arena
 
 
 wp-content/plugins/*
