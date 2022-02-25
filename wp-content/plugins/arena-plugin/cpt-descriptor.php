@@ -3,12 +3,12 @@
 
 return [
 
-    'Products' => [
-        'label' => 'Produits',
+    'arena_product' => [
+        'label' => 'Produit',
         'public' => true,
-        /* 'capability_type' => 'post', */
-        /* 'map_meta_cap' => true, */
+
         'show_in_rest' => true,
+        'has_archive' => true,
         'menu_icon'   => 'dashicons-products',
         'supports' =>
         [
@@ -18,6 +18,7 @@ return [
             'excerpt',
             'author'
         ],
+        'taxonomies' => array('category'),
 
     ],
     /*  'exemple_' => [
